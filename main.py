@@ -5,8 +5,10 @@ def star(x):
         print('고소' * i, end='')
         print('\n')
     for j in range(x):
-        print('　' * (j), end='')
+        print('　' * j, end='')
         print('고소' * (x - j), end='')
         print('\n')
+
+
 if __name__ == '__main__':
     star(10)
